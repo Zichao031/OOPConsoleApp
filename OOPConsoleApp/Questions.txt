@@ -1,11 +1,11 @@
 Test your knowledge
 1. What are the six combinations of access modifier keywords and what do they do? 
- - public
- - private
- - protected
- - internal
- - protected internal
- - private protected
+ - public: The type or member can be accessed by any other code in the same assembly or another assembly that references it. The accessibility level of public members of a type is controlled by the accessibility level of the type itself.
+ - private: The type or member can be accessed only by code in the same class or struct.
+ - protected: The type or member can be accessed only by code in the same class, or in a class that is derived from that class
+ - internal: The type or member can be accessed by any code in the same assembly, but not from another assembly. In other words, internal types or members can be accessed from code that is part of the same compilation.
+ - protected internal: The type or member can be accessed by any code in the assembly in which it's declared, or from within a derived class in another assembly.
+ - private protected:  The type or member can be accessed by types derived from the class that are declared within its containing assembly.
 
 2. What is the difference between the static, const, and readonly keywords when applied to a type member?
     - static: it belongs to the type itself rather than an instance of the class, and it can be accessed using the class name rather than an instance
@@ -25,22 +25,44 @@ Test your knowledge
     - The can be particular useful in:
         - code organization
 5. What is a tuple?
-    - 
+    - The tuples feature provides concise syntax to group multiple data elements in a lightweight data structure. 
+    - use tuple as return type:
+        (int min, int max) MethodName(int[] parameter) {
+            // code
+            return (min, max)
+        }
+    - use "var t = (1, 2, 4)" to name the tuple
+    - use .Item1, Item2, Item3 to get the elements:
+        t.Item1 -> get 1
+    - == and !=
+    - System.ValueTuple types are value types. System.Tuple types are reference types.
+      System.ValueTuple types are mutable. System.Tuple types are immutable.
+      Data members of System.ValueTuple types are fields. Data members of System.Tuple types are properties.
 6. What does the C# record keyword do?
-    - 
+    - A record in C# is a class or struct that provides special syntax and behavior for working with data models. The record modifier instructs the compiler to synthesize members that are useful for types whose primary role is storing data. These members include an overload of ToString() and members that support value equality.
+    - When to use records: 
+        You want to define a data model that depends on value equality.
+        You want to define a type for which objects are immutable.
 7. What does overloading and overriding mean?
+    - overriding: The methods in a class are inherited by any class that extends it. You can alter the functionality of an inherited method by creating a method in the subclass with the same name and parameters as in the superclass. This is called overriding the method. 
+        - use final keyword to prevent overriding
+    - overloading: C++ lets you specify more than one function of the same name in the same scope. These functions are called overloaded functions, or overloads. Overloaded functions enable you to supply different semantics for a function, depending on the types and number of its arguments.
 8. What is the difference between a field and a property?
-    - both used to store data
-    - difference:
-        
+    - both used to store data, Properties behave like fields when they're accessed. However, unlike fields, properties are implemented with accessors that define the statements executed when a property is accessed or assigned.
+    - Properties are first class citizens in C#. The language defines syntax that enables developers to write code that accurately expresses their design intent.
+                    
 9. How do you make a method parameter optional?
     - By providing a default value for the parameter in the method signature.
     - optional parameter must be specified after all required parameters in the method signature
     - you can use "in" modifier to make a parameter "read-only", prevent it got changed inside the method
         MethodName(int a, in int optionalParam=10)
 10. What is an interface and how is it different from abstract class?
-    - 
+    - Abstract class vs Interface:
+      1. Abstract class provides a base class to its subclasses - use it when we have clear class hierarchy; 
+      interface defines common behaviors that can be implemented by any class  
+      2.One class only inherit from one abstract class/concrete class but one class can implement multiple interfaces
 11. What accessibility level are members of an interface?
+    - 
 12. True/False. Polymorphism allows derived classes to provide different implementations of the same method.
     - True
 13. True/False. The override keyword is used to indicate that a method in a derived class is providing its own implementation of a method.
