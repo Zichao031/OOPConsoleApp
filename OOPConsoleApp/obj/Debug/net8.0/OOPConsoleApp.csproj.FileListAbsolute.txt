@@ -1,0 +1,15 @@
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/bin/Debug/net8.0/OOPConsoleApp
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/bin/Debug/net8.0/OOPConsoleApp.deps.json
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/bin/Debug/net8.0/OOPConsoleApp.runtimeconfig.json
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/bin/Debug/net8.0/OOPConsoleApp.dll
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/bin/Debug/net8.0/OOPConsoleApp.pdb
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/OOPConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/OOPConsoleApp.AssemblyInfoInputs.cache
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/OOPConsoleApp.AssemblyInfo.cs
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/OOPConsoleApp.csproj.CoreCompileInputs.cache
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/OOPConsoleApp.dll
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/refint/OOPConsoleApp.dll
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/OOPConsoleApp.pdb
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/OOPConsoleApp.genruntimeconfig.cache
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/ref/OOPConsoleApp.dll
+/Users/xiaozichao/RiderProjects/OOPConsoleApp/OOPConsoleApp/obj/Debug/net8.0/OOPConsoleApp.sourcelink.json
