@@ -1,4 +1,4 @@
-using OOPConsoleApp.DesignAndBuildClass;
+using OOPConsoleApp.DataModel;
 
 namespace OOPConsoleApp.Interfaces;
 
