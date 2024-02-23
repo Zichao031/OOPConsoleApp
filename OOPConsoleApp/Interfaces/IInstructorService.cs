@@ -2,9 +2,10 @@ using OOPConsoleApp.DataModel;
 
 namespace OOPConsoleApp.Interfaces;
 
-public interface IInstructorService: IPersonService<Instructor>
+public interface IInstructorService: IPersonService
 {
-    bool IsHeadOfDepartmant(Instructor obj);
-    decimal CalculateBonus(Instructor obj);
-    int CalculateYearsOfExperience(Instructor obj);
+    string Department { get; set; }
+    bool IsHeadOfDepartmant { get; set; }
+    decimal CalculateBonus();
+    int CalculateYearsOfExperience();
 }

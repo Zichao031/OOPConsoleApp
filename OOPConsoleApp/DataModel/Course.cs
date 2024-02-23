@@ -1,6 +1,8 @@
+using OOPConsoleApp.Interfaces;
+
 namespace OOPConsoleApp.DataModel;
 
-public class Course
+public class Course: ICourseService
 {
-    public List<Student> EnrolledStudents = new List<Student>();
+    public List<Student> EnrolledStudents { get; set; }
 }

@@ -7,7 +7,7 @@ using OOPConsoleApp.WorkWithMethods;
 // ReverseArray.Main();
 
 // 2. Fibonacci
-// Fibonacci.Get(10);
+Fibonacci.Get(10);
 
 // OOP design and build class:
 
