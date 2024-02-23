@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOPConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1730bcb31e302a8e186872ae594f12ff4f6e6f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdcead49798b5e7caaf8400d2ecdecb99a24cd56")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOPConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOPConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
